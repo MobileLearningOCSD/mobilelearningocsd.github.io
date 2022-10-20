@@ -1,0 +1,17 @@
+# Mac/OSX
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+
+# Private Node Modules
+node_modules/
+
