@@ -1,0 +1,90 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  /*height:10rem;*/
+  background-color:#0077C0;
+  display:flex;
+  flex-direction:column;
+}
+
+.header > h1 {
+  margin:0;
+  padding:0.5rem;
+  font-size:1.25rem;
+  font-weight:400;
+}
+
+.header > div {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.header > div > p {
+  font-size:2rem;
+  font-weight:500;
+  color:#f0ffff;
+  margin:2rem 0 0 0;
+}
+
+.search > label{
+  display:flex;
+  margin: 1rem 0 2rem 0;
+}
+
+.search input{
+  padding:.05rem 1rem .05rem 1rem;
+  border-radius: .28571429rem;
+  border: 1px solid rgba(34,36,38,.15);
+  color: rgba(0,0,0,.87);
+  outline:0;
+  font-size:1.5rem;
+  font-weight:400;
+}
+
+.search input::placeholder{
+  color:rgba(0,0,0,.25);
+}
+
+i.search-icon{
+  display:inline-block;
+  font-style:normal;
+  font-size:2rem;
+  margin:0 0 0 -2.25rem;
+  color:rgba(0,0,0,0.25);
+  -webkit-transform: rotate(45deg); 
+  -moz-transform: rotate(45deg); 
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+main {
+  min-height:100vh;
+  background-color:#F5F5F5;
+}
+
+.cards {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding-top:1rem;
+}
+
+.card {
+  background-color:#fff;
+  margin:1rem;
+  padding: 3rem 1rem;
+  border-radius:0.25rem;
+  width:15rem;
+  height:15rem;
+  transition:box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow:0 0 1rem #777;
+}
+
