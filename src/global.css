@@ -16,6 +16,15 @@ body {
   padding:0.5rem;
   font-size:1.25rem;
   font-weight:400;
+  letter-spacing:-0.08rem;
+}
+
+.header > h1 > span {
+  font-size:0.75rem;
+  vertical-align: middle;
+  font-weight:600;
+  padding-left:0.5rem;
+  letter-spacing:normal;
 }
 
 .header > div {
@@ -28,12 +37,13 @@ body {
   font-size:2rem;
   font-weight:500;
   color:#f0ffff;
-  margin:2rem 0 0 0;
+  margin:1.5rem 0 0 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .search > label{
   display:flex;
-  margin: 1rem 0 2rem 0;
+  margin: 0.5rem 0 2rem 0;
 }
 
 .search input{
@@ -44,6 +54,7 @@ body {
   outline:0;
   font-size:1.5rem;
   font-weight:400;
+  width:30rem;
 }
 
 .search input::placeholder{
@@ -77,14 +88,83 @@ main {
 .card {
   background-color:#fff;
   margin:1rem;
-  padding: 3rem 1rem;
+  padding: 3rem 2rem;
   border-radius:0.25rem;
-  width:15rem;
+  width:12rem;
   height:15rem;
-  transition:box-shadow 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+  box-shadow:0 0 3px #999;
+  /* <Link>: removes default styling as <a> tag */
+  color:inherit;
+  text-decoration:inherit;
+  /* <Link> */
 }
 
 .card:hover {
   box-shadow:0 0 1rem #777;
+  transform:rotate(-1deg);
 }
 
+section {
+  padding:2rem 4rem;
+}
+
+section > h1 {
+  font-size:2.5rem;
+  padding-bottom:1rem;
+  border-bottom:1px solid #dcdcdc;
+  margin:1rem 0 2rem 0;
+}
+
+section > h2 {
+  font-size:1.5rem;
+  font-weight:600;
+  padding:0;
+}
+
+section > p, div > p {
+  font-size:1.25rem;
+  font-weight:400;
+}
+
+section > pre, div > pre {
+  background-color:#F0F0F0;
+  border-radius:0.25rem;
+  padding:1.25rem 2.5rem 1.25rem 3rem;
+  margin:1rem 0 2rem;
+  overflow-x:auto;
+  white-space:pre-wrap;
+  word-wrap:break-word;
+  text-indent:-2rem;
+}
+
+section > pre > code, div > pre > code {
+  font-size:1rem;
+}
+
+.top-padding {
+  padding-top:2rem;
+}
+
+li {
+  padding-bottom:2rem;
+}
+
+img {
+  box-shadow:#777 3px 3px 7px;
+}
+
+hr{
+  margin:2rem 0 2rem 0;
+}
+
+iframe{
+  margin-bottom:1rem;
+  border:none;
+  box-shadow: #777 3px 3px;
+}
+
+.warning {
+  background-color: rgba(227, 0, 34, .1);
+  padding:1rem;
+}

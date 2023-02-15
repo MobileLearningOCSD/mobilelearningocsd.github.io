@@ -1,12 +1,14 @@
+import {Link} from 'react-router-dom'
 
 const Home = () => {
   return(
     <div className="cards">
-          <section className="card">
-            <i>B</i>
-            <h3>Title</h3>
-            <p>Short Text Description</p>
-          </section>
+          <Link to="/limit-ip-address-tracking" className="card">
+            <i>icon</i>
+            <h3>Limit IP Address Tracking</h3>
+            <p>Set limit IP address tracking to OFF</p>
+            <p>Helpful fix for Pearson Textbooks not connecting.</p>
+          </Link>
           <section className="card">
             <i>B</i>
             <h3>Title</h3>
