@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import {HashRouter, Route, Routes} from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './components/Home'
 import LimitIPAddressTracking from './components/LimitIPAddressTracking'
@@ -10,17 +10,17 @@ function App() {
     <div className="app">
       
       <main>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={ <Home /> } /> 
-              <Route path="/limit-ip-address-tracking" element={ <LimitIPAddressTracking /> } />
+              <Route path="limit-ip-address-tracking" element={ <LimitIPAddressTracking /> } />
               <Route path="test" element={ <Test /> } />
               <Route path="*" element={<FourOFour />} />
             </Route>
             
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </main>
     </div>
   );
