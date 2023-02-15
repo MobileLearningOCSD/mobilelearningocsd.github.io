@@ -12,9 +12,9 @@ function App() {
       <main>
         <BrowserRouter>
           <Routes>
-            <Route path={process.env.PUBLIC_URL + '/'} element={<Layout />}>
+            <Route path="/" element={<Layout />}>
               <Route index element={ <Home /> } /> 
-              <Route path={process.env.PUBLIC_URL + '/limit-ip-address-tracking'} element={ <LimitIPAddressTracking /> } />
+              <Route path="/limit-ip-address-tracking" element={ <LimitIPAddressTracking /> } />
               <Route path="test" element={ <Test /> } />
               <Route path="*" element={<FourOFour />} />
             </Route>
