@@ -47,10 +47,11 @@ const LimitIPAddressTracking = () => {
       <div className="warning">
         <h2>WARNING</h2>
         <pre>
-          <code>Do NOT toggle Private Wi-Fi Address to off.</code>
+          <code>Do NOT toggle Private Wi-Fi Address.</code>
         </pre>
         <img width="500" src={warning} alt="Finished" />
         <p>It will temporarily remove the cnet2 profile and may prevent iPad from reconnecting to network.</p>
+        <p><b>Leave it OFF or Leave it ON</b></p>
       </div>
       
     </section>
