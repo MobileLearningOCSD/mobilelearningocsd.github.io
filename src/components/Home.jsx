@@ -9,11 +9,11 @@ const Home = () => {
             <p>Set limit IP address tracking to OFF</p>
             <p>Helpful fix for Pearson Textbooks not connecting.</p>
           </Link>
-          <section className="card">
-            <i>B</i>
-            <h3>Title</h3>
-            <p>Short</p>
-          </section>
+          <Link to="/native-translation" className="card">
+            <i>icon</i>
+            <h3>Translate</h3>
+            <p>Native translation on iPads</p>
+          </Link>
           <section className="card">
             <i>B</i>
             <h3>Title</h3>

@@ -1,9 +1,9 @@
-import settings from '../images/settings.jpg'
-import wifi from '../images/wifi.jpg'
-import cnet2 from '../images/cnet2.jpg'
-import off from '../images/limit_ip_address_tracking.jpg'
-import done from '../images/done.jpg'
-import warning from '../images/warning.jpg'
+import settings from '../images/limit_ip_address_tracking/settings.jpg'
+import wifi from '../images/limit_ip_address_tracking/wifi.jpg'
+import cnet2 from '../images/limit_ip_address_tracking/cnet2.jpg'
+import off from '../images/limit_ip_address_tracking/limit_ip_address_tracking.jpg'
+import done from '../images/limit_ip_address_tracking/done.jpg'
+import warning from '../images/limit_ip_address_tracking/warning.jpg'
 
 const LimitIPAddressTracking = () => {
   return(
