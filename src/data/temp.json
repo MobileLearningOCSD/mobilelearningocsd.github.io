@@ -1,0 +1,14 @@
+[
+  {
+    "id": "cbcfa3e2-f213-48d9-aa29-53cacd645bf8",
+    "title": "Do not allow Find my Friends",
+    "supervised": "Supervision required",
+    "definition": "After this restriction is activated, Find My Friends in the Find My app will be disabled (iOS 13+)." 
+  },
+  {
+    "id": "6af85d8f-0247-4173-aa41-3cb38787ceb2",
+    "title": "Force Wifi Power On ",
+    "supervised": "Supervision required",
+    "definition": "After this restriction is activated, the user will not be able to disable Wifi Power settings (iOS 13+). Note: The user will need to have an active network/Wifi connection in order for the restriction to be delivered and applied. If the Wifi is disabled, this will not enable Wifi."   
+  }
+]

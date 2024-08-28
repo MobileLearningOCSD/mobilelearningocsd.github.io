@@ -1,0 +1,344 @@
+[
+  {
+    "id": "592ab074-22c8-466b-b6d0-1d4324bfaff5",
+    "title": "Force Permission to leave classes",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, a student enrolled in an unmanaged course via Classroom will need to request the teacher's permission when attempting to leave the course (iOS 11.3 and later)." 
+  },
+  {
+    "id": "c35dd412-faf1-49f4-8ea0-95a72714fdf0",
+    "title": "Force Screen Viewing permission via Classroom app",
+    "supervised": "Supervision required",
+    "definition": "When enabled, students will not be required to authorize Screen Viewing regardless of the Education profile option configured in the Location registration within Mosyle (iOS 10.3 and later)." 
+  },
+  {
+    "id": "57a0d260-8fdf-4ff9-9e79-ddfb4a8c38e2",
+    "title": "Automatically join Classroom without prompting",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, student devices will automatically join Classroom when the teacher requests, without prompting student permission (iOS 11 and later)." 
+  },
+  {
+    "id": "7c273891-ffff-4335-a4b6-ffc80598e509",
+    "title": "Allow Classroom to lock to an app and lock device without prompting",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, teachers will be able to lock student devices into an app or lock the device, without prompting student permission (iOS 11 and later)." 
+  },
+  {
+    "id": "659e7477-fe4f-46ca-bcc4-cb32157188c8",
+    "title": "Force Unprompted Managed Classroom Screen Observation",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, teachers will be able to view the screens of student devices, without prompting student permission (iOS 11 and later)." 
+  },
+  {
+    "id": "e3e8c567-9c9e-4e85-85ff-acb73ec678f6",
+    "title": "Do not allow Siri on locked screen",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, Siri cannot be activated with the device locked." 
+  },
+  {
+    "id": "45d76f18-faee-4875-9bb3-73d554cc7e2c",
+    "title": "Do not allow Siri to query from the Web ",
+    "supervised": "Supervision required",
+    "definition": "When enabled prevents Siri from querying user-generated content from the web." 
+  },
+  {
+    "id": "a2e850d5-533c-4646-b9d9-9fbfa5be4627",
+    "title": "Do not allow Web search via Spotlight",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled device will not search the Web content to display in Spotlight." 
+  },
+  {
+    "id": "6e7e1b46-0028-45c9-b0df-74183a632a8d",
+    "title": "Disallow Control Center with the locked screen",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, the Control Center cannot be activated while the device is locked." 
+  },
+  {
+    "id": "76fae03e-5fd8-48ca-a821-09ca06212ce6",
+    "title": "Do not allow keyboard shortcuts",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users cannot use any keyboard shortcuts." 
+  },
+  {
+    "id": "7c49d46b-58a4-4834-a101-8b5b7c408308",
+    "title": "Do not allow predicted text",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users cannot use the predictive iOS keyboard. Predictive keyboard is a feature where the keyboard offers word suggestions while user text is being entered." 
+  },
+  {
+    "id": "1673e5d1-a2b3-4638-baed-a126720a7a22",
+    "title": "Do not allow autocorrection of words",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, iOS will not automatically correct words as you type." 
+  },
+  {
+    "id": "470e2f96-63eb-470c-b7a3-942db4edbb53",
+    "title": "Do not allow definition of words",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users cannot use the iOS feature to look up the meanings of words." 
+  },
+  {
+    "id": "a63b3e96-81d3-4db5-9cf1-353bcb2fe230",
+    "title": "Do not allow passcode change",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users cannot add, change, or remove a passcode to access the device (iOS 9 and later)." 
+  },
+  {
+    "id": "4b909c14-ce5f-4097-8835-51a70b666de6",
+    "title": "Do not allow modifying Touch ID fingerprints",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users cannot modify Touch ID to access the device." 
+  },
+  {
+    "id": "a73b7c77-615c-4532-82ab-26fafad09ca3",
+    "title": "Do not allow host pairing",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, host pairing is disabled with the exemption of the supervision host. If no supervision host certificate has been configured, all pairing is disabled. Host pairing lets the administrator control which devices device can pair with. (iOS 7 and later)." 
+  },
+  {
+    "id": "74832e05-9723-47ff-8817-ad5ba17b3bdd",
+    "title": "Do not allow Apple Watch pairing",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, disables pairing with an Apple Watch. Any currently paired Apple Watch is unpaired and erased. (iOS 9 and later)." 
+  },
+  {
+    "id": "8b6c1d9b-046e-47c5-aa02-0c5a4248e988",
+    "title": "Do not allow modification of cellular data usage for apps",
+    "supervised": "Supervision required",
+    "definition": "Disables users from modifying or changing settings of cellular data usage for apps. (iOS 7.0 and later)" 
+  },
+  {
+    "id": "0178218c-3ce2-45e8-a5ea-fdb8367d8ca0",
+    "title": "Do not allow device name change",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users cannot modify the name of the device in Settings (iOS 9 and later)." 
+  },
+  {
+    "id": "5fdc524f-c7cf-41ad-b3dc-7ca246c02f98",
+    "title": "Do not allow News",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not have access to the News App (iOS 9 and later)." 
+  },
+  {
+    "id": "ea122766-4cf1-4688-b2be-03e2a6f76a19",
+    "title": "Do not allow \"Erase All Content and Settings\"",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not be able to delete all data and reset the iOS settings on the device. This restriction is only compatible with devices using iOS 8 and later." 
+  },
+  {
+    "id": "7fabc013-316e-4b3a-aa28-20e2a75c2e0a",
+    "title": "Do not allow manual restrictions",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users cannot manually change the iOS restrictions through the System Settings. Only the MDM will be able to turn restrictions on and off. This restriction is only compatible with devices using iOS 8 and later. On iOS 12 and later, the \"Enable ScreenTime\" option in the ScreenTime UI in Settings will become unavailable. Also, if Screen Time is turned on, it will be disabled." 
+  },
+  {
+    "id": "bfa29517-3019-4b37-81e2-7ce0ab7e309a",
+    "title": "Do not allow modifications to account settings",
+    "supervised": "Supervision required",
+    "definition": "When this option is selected, users can't create new accounts or change user name, password, or other settings associated with their account. Accounts include: Apple ID, Mail, Twitter, Facebook, Flickr and Vimeo." 
+  },
+  {
+    "id": "94ce9a9a-3056-4b47-819b-4709a94264c0",
+    "title": "Do not show notifications in lock screen",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, the Notifications history view is disabled on the lock screen, so users can't view past notifications. However, they can still see notifications when they arrive." 
+  },
+  {
+    "id": "ec32b567-3a3d-4f2e-b727-ea4884b5b606",
+    "title": "Do not allow notifications change",
+    "supervised": "Supervision required",
+    "definition": "After this restriction is activated, the user will not be able to change notifications setup of the apps. Only MDM will be able to install and change notifications (iOS 9.3 and later)." 
+  },
+  {
+    "id": "b03bc6db-f54e-48eb-b8c1-729343a80824",
+    "title": "Do not show the daily summary in lock screen",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, the device will not show the Summary of the Day when the screen is locked." 
+  },
+  {
+    "id": "1ebd96dd-b54f-4044-9138-e054e03a8874",
+    "title": "Do not allow manual installation of configuration profiles ",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users cannot manually install configuration profiles on the device. Only the MDM can install profiles on the device." 
+  },
+  {
+    "id": "c537315e-583a-4a67-af69-ffb58f39f575",
+    "title": "Do not allow iMessage",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not be able to access iMessage (instant messaging app)." 
+  },
+  {
+    "id": "70b666d1-301e-4569-ad82-dd840b43c0a7",
+    "title": "Do not allow FaceTime",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not be able to call anyone using the FaceTime videoconferencing app." 
+  },
+  {
+    "id": "4ca4eb87-6343-4f2c-b920-58518b4e05f4",
+    "title": "Do not allow erotic content in iBook Store ",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not be able to access erotic content in the iBookStore." 
+  },
+  {
+    "id": "e6a44c74-67fe-42b3-8b04-d8474b8240e6",
+    "title": "Do not allow iCloud backup",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not be able to copy the device's data to the backup service (iCloud) provided by Apple." 
+  },
+  {
+    "id": "044d748a-189f-4b76-bfba-dccedd552118",
+    "title": "Do not allow modifications in Find My Friends",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not be able to modify the settings of Find My Friends. If it is enabled, it is not possible to disable and vice versa." 
+  },
+  {
+    "id": "bb05e40d-2914-4cb7-bb5e-16c2e25e6b50",
+    "title": "Do not allow Game Center",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not be able to use or access Apple's social gaming network. However, the installation and use of games in offline mode will not be blocked." 
+  },
+  {
+    "id": "c05c87c6-a158-437e-add9-90c04b5aea3d",
+    "title": "Do not allow adding friends in Game Center ",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not be able to add friends in Game Center." 
+  },
+  {
+    "id": "dbb36d0b-8b77-4b77-a2a3-c6e5b66eac17",
+    "title": "Do not allow multiplayer in Game Center",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not be able to play with other user's applications that use Multiplayer mode." 
+  },
+  {
+    "id": "26727d30-09d6-4f1a-a001-845c98119d1d",
+    "title": "Don't allow the installation of apps via App Store",
+    "supervised": "Supervision required",
+    "definition": "Do not allow the user to install applications from the App Store. New apps can be sent using the function \"Install applications\" present in the Mosyle MDM (iOS 9 and later)." 
+  },
+  {
+    "id": "5c6d62eb-60d4-4fd5-bcd0-aec1fb2c3274",
+    "title": "Do not allow the installation of enterprise applications",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not be able to install applications from any source (iOS 9 and later)." 
+  },
+  {
+    "id": "f8d0be4d-caa2-467e-84e0-ca85bc70dc97",
+    "title": "Do not allow automatic download of Apps",
+    "supervised": "Supervision required",
+    "definition": "Do not authorize the user to automatically transfer a purchase made from another device, with the same Apple ID, to this device (iOS 9 and later)." 
+  },
+  {
+    "id": "5389265e-fc62-47eb-a87b-1ada44fd26a5",
+    "title": "Do not allow in-app purchases",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not be able to purchase items offered by or within the app." 
+  },
+  {
+    "id": "c716a3c7-6a1c-4f0a-8e8b-ab81186411cf",
+    "title": "Do not allow explicit content in iTunes",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not have access to music and videos that are marked as explicit (iOS 9 and later)." 
+  },
+  {
+    "id": "a955c180-4a0b-43ba-8cc0-5a50216dbd86",
+    "title": "Do not allow iTunes",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users will not have access to iTunes - Apple's music and video store (iOS 9 and later)." 
+  },
+  {
+    "id": "170f17a9-8f32-4078-a478-86a591360eae",
+    "title": "Do not allow Apple Music Radio",
+    "supervised": "Supervision required",
+    "definition": "Do not allow user to access Apple Music Radio (iOS 9.3 and later)." 
+  },
+  {
+    "id": "9102cbc7-5058-48e9-9015-bdb1c16fb7c8",
+    "title": "Do not allow Apple Music",
+    "supervised": "Supervision required",
+    "definition": "Do not allow user to access Apple Music service. When enabled the Music app reverts to classic mode (iOS 9.3 and later)." 
+  },
+  {
+    "id": "55a812b8-3c00-46ce-83ff-d22846053daf",
+    "title": "Do not allow Diagnostics Reports",
+    "supervised": "Supervision required",
+    "definition": "When enabled prevents the device from automatically submitting diagnostic reports to Apple." 
+  },
+  {
+    "id": "77297a20-7e78-46c8-b6b5-f7b9a79bfe8d",
+    "title": "Do not allow Diagnostics modification",
+    "supervised": "Supervision required",
+    "definition": "When enabled the diagnostic submission and app analytics settings in the Diagnostics & Usage pane in Settings cannot be modified." 
+  },
+  {
+    "id": "f509ec76-a5e4-4d13-aa7c-25d30400e1a1",
+    "title": "Force Assistant Profanity Filter",
+    "supervised": "Supervision required",
+    "definition": "When enabled forces the use of the profanity filter assistant." 
+  },
+  {
+    "id": "cc22ace4-ea7a-49c6-aa0b-a9aa1bc9393c",
+    "title": "Do not allow VPN creation",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, VPN creation will not be allowed (iOS 11+) and will prevent VPN settings from being modified by unmanaged apps. This restriction does not prevent 3rd party apps from creating a VPN." 
+  },
+  {
+    "id": "eb6cd7ab-87c8-4c56-ae3b-b6a457b5a700",
+    "title": "Do not allow modifications to Cellular Plan",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, users can't change any settings related to their cellular plan (iOS 11 and later)." 
+  },
+  {
+    "id": "c2e8e3be-cc15-4a62-bd3b-503cd419eec1",
+    "title": "Do not allow setting up new nearby devices",
+    "supervised": "Supervision required",
+    "definition": "When this restriction is enabled, setting up new nearby devices will not be allowed (iOS 11 and later)." 
+  },
+  {
+    "id": "381dad08-7a61-4634-9daa-77c7b47b6d5f",
+    "title": "Do not allow AutoFill Passwords",
+    "supervised": "Supervision required",
+    "definition": "Do not allow AutoFill Passwords (iOS 12 and later)." 
+  },
+  {
+    "id": "2a909e24-8c51-4abb-9dc1-12bc12aaf606",
+    "title": "Do not allow proximity based password sharing requests",
+    "supervised": "Supervision required",
+    "definition": "Do not allow proximity based password sharing requests (iOS 12 and later)." 
+  },
+  {
+    "id": "2fd48c4f-dce8-4706-83b0-4d8b1b4b2a3c",
+    "title": "Do not allow password sharing",
+    "supervised": "Supervision required",
+    "definition": "Do not allow password sharing (iOS 12 and later)." 
+  },
+  {
+    "id": "ddb3ecf9-51f4-41dc-9d58-c432df669916",
+    "title": "Force automatic date and time",
+    "supervised": "Supervision required",
+    "definition": "Force automatic date and time (iOS 12 and later)." 
+  },
+  {
+    "id": "f24c4bcb-39ab-4e84-ac5c-bbf4bd10ff97",
+    "title": "Do not allow eSIM modification",
+    "supervised": "Supervision required",
+    "definition": "After this restriction is activated, the user will not be able to modify eSIM settings. (iOS 12.1 and later)." 
+  },
+  {
+    "id": "2cc5cac1-63d9-4882-821b-f6c28f442410",
+    "title": "Do not allow Find my Device",
+    "supervised": "Supervision required",
+    "definition": "After this restriction is activated, Find My Device in the Find My app will be disabled (iOS 13+)." 
+  },
+  {
+    "id": "cbcfa3e2-f213-48d9-aa29-53cacd645bf8",
+    "title": "Do not allow Find my Friends",
+    "supervised": "Supervision required",
+    "definition": "After this restriction is activated, Find My Friends in the Find My app will be disabled (iOS 13+)." 
+  },
+  {
+    "id": "6af85d8f-0247-4173-aa41-3cb38787ceb2",
+    "title": "Force Wifi Power On ",
+    "supervised": "Supervision required",
+    "definition": "After this restriction is activated, the user will not be able to disable Wifi Power settings (iOS 13+). Note: The user will need to have an active network/Wifi connection in order for the restriction to be delivered and applied. If the Wifi is disabled, this will not enable Wifi." 
+  }
+]

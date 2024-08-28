@@ -17,7 +17,7 @@ const NativeTranslation = () => {
       </pre>
 
       <h2>Video</h2>
-      <iframe width="500" height="320" src="https://www.youtube.com/embed/nU5-oAJHzHU"></iframe>
+      <iframe title="Native Translation" width="500" height="320" src="https://www.youtube.com/embed/nU5-oAJHzHU"></iframe>
 
       <hr></hr>
 
@@ -56,7 +56,7 @@ const NativeTranslation = () => {
       </pre>
 
       <h2>Video</h2>
-      <iframe width="500" height="320" src="https://www.youtube.com/embed/AAqdUfvoYqE"></iframe>
+      <iframe title="Access Camera App" width="500" height="320" src="https://www.youtube.com/embed/AAqdUfvoYqE"></iframe>
 
       <hr></hr>
 
